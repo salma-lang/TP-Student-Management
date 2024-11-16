@@ -1,7 +1,7 @@
 # Gestion des Étudiants- Spring Boot
 
 ## Description
-Il s'agit d'un système de **gestion des étudiants** développé avec **Spring Boot**. Ce système permet de gérer les données des étudiants, telles que leur nom, prénom et date de naissance. Il prend en charge les opérations CRUD courantes ainsi que des fonctionnalités supplémentaires telles que le comptage des étudiants et leur regroupement par année de naissance.
+Il s'agit d'un système de **gestion des étudiants** développé avec **Spring Boot**. Ce système permet de gérer les données des étudiants, telles que leur nom, prénom et date de naissance. Il prend en charge les opérations CRUD courantes ainsi que des fonctionnalités supplémentaires telles que le comptage des étudiants et leur regroupement par année de naissance.Ce projet suit un modèle MVC (Modèle-Vue-Contrôleur) et inclut une API REST qui peut être testée à l'aide d'outils comme Advanced REST Client et Swagger
 
 ## Fonctionnalités
 - Ajouter un nouvel étudiant
@@ -51,52 +51,7 @@ student-management
 └── HELP.md
 ```
 
----
 
-## Tests
-
-### 1. Tests Unitaires
-
-Les tests unitaires ont été exécutés avec **JUnit 5**. Tous les tests ont été passés avec succès, comme indiqué ci-dessous :
-
-- **Résultats des Tests :**
-  - `testSaveStudent()`
-  - `testCountStudents()`
-  - `testFindByYear()`
-  - `testFindAllStudents()`
-  - `testDeleteStudent()`
-
-  **Statut des Tests :** 5/5 Tests réussis  
-  **Temps d'exécution :** 93 ms
-
-### 2. Tests avec **Advanced REST Client (ARC)**
-
-Les tests avec **Advanced REST Client** ont été effectués pour vérifier les différentes fonctionnalités de l'API.
-
-- **Test d'affichage de tous les étudiants**  
-  `GET http://localhost:8080/students/all`  
-  **Réponse :** Liste des étudiants
-
-- **Test de récupération d'un étudiant par son ID**  
-  `GET http://localhost:8080/students/{id}`  
-  **Réponse :** Détails de l'étudiant demandé
-
-### 3. Documentation API avec **Swagger**
-
-Swagger est utilisé pour générer une documentation interactive de l'API. Après avoir démarré l'application, vous pouvez accéder à la documentation en vous rendant sur l'URL suivante :  
-`http://localhost:8080/swagger-ui.html`
-
----
-
-## Installation et Lancement du Projet
-
-1. Clonez le dépôt Git.
-2. Exécutez le fichier `mvnw` pour démarrer le projet.
-
-**Commandes pour démarrer :**
-```bash
-./mvnw spring-boot:run
-```
 
 L'application sera disponible à l'adresse suivante :  
 `http://localhost:8080`
