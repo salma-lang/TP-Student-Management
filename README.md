@@ -276,15 +276,14 @@ Swagger vous permet d'explorer et de tester les différentes routes de l'API dir
 
 
 ---
-
-## Conclusion
-
-Ce projet est une démonstration de gestion d'étudiants en utilisant **Spring Boot**, avec un modèle MVC bien structuré. L'application inclut des fonctionnalités CRUD de base, une fonctionnalité pour compter les étudiants, et une autre pour les regrouper par année de naissance. Tous les tests ont été réussis et l'API est bien documentée avec **Swagger**.
-
----
 ## Démonstration Vidéo:
 
 https://github.com/user-attachments/assets/2018eaad-2361-41df-81c2-12286d9a4d72
 
+---
+
+## Conclusion
+
+Ce projet est une démonstration de gestion d'étudiants en utilisant **Spring Boot**, avec un modèle MVC bien structuré. L'application inclut des fonctionnalités CRUD de base, une fonctionnalité pour compter les étudiants, et une autre pour les regrouper par année de naissance. Tous les tests ont été réussis et l'API est bien documentée avec **Swagger**.
 
 
