@@ -211,8 +211,8 @@ Voici quelques exemples de tests :
 
 Voici les résultats après l'exécution des tests avec succès :
 
-- **Tests réussis :** 5/5
-- **Temps total d'exécution :** 93 ms
+![image](https://github.com/user-attachments/assets/99041d04-4ce7-440d-932d-9e2d55ce51a6)
+
 
 ---
 
@@ -245,6 +245,9 @@ Cette requête retourne une liste de tous les étudiants. Exemple de réponse :
 ]
 ```
 
+![image](https://github.com/user-attachments/assets/f44a6375-4cd2-4548-a84d-54be19c46e8d)
+
+
 ### 2. **GET /students/{id}**
 
 Cette requête retourne les détails d'un étudiant par son ID. Exemple pour l'ID 4 :
@@ -257,6 +260,8 @@ Cette requête retourne les détails d'un étudiant par son ID. Exemple pour l'I
   "dateNaissance": "2003-08-06"
 }
 ```
+![image](https://github.com/user-attachments/assets/8e45b44b-a915-4df6-adce-ea4c9c8b2c66)
+
 
 ---
 
@@ -265,7 +270,10 @@ Cette requête retourne les détails d'un étudiant par son ID. Exemple pour l'I
 L'application expose également la documentation Swagger à l'URL suivante :  
 `http://localhost:8080/swagger-ui.html`
 
-Swagger vous permet d'explorer et de tester les différentes routes de l'API directement depuis l'interface web.
+Swagger vous permet d'explorer et de tester les différentes routes de l'API directement depuis l'interface web comme indiqué ci-dessous:
+
+![image](https://github.com/user-attachments/assets/9aa35492-67f2-4815-b982-f3a10b4431f0)
+
 
 ---
 
